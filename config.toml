@@ -1,6 +1,6 @@
 base_url = "https://vsfl.org"
 
-compile_sass     = true
+compile_sass     = false
 minify_html      = true
 default_language = "en"
 
