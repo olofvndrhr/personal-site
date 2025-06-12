@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Personal site</title>
+    <link href="https://vsfl.org/atom.xml" rel="self"/>
+    <link href="https:&#x2F;&#x2F;vsfl.org"/>
+    <updated>2025-06-12T12:26:07+0000</updated>
+    <id>https:&#x2F;&#x2F;vsfl.org</id>
+
+    
+    
+    
+    
+        
+    
+    
+    
+        
+        
+            
+            <entry>
+                <title>releasenote-gen</title>
+                <link href="https:&#x2F;&#x2F;vsfl.org&#x2F;projects&#x2F;2024&#x2F;releasenote-gen&#x2F;"/>
+                <updated>2024-02-04T00:00:00+0000</updated>
+                <id>https:&#x2F;&#x2F;vsfl.org&#x2F;projects&#x2F;2024&#x2F;releasenote-gen&#x2F;</id>
+                <content type="html">&amp;lt;blockquote&amp;gt;
+&amp;lt;p&amp;gt;link to repo: &amp;lt;a rel=&amp;quot;noopener&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;olofvndrhr&amp;#x2F;releasenote-gen&amp;quot;&amp;gt;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;olofvndrhr&amp;#x2F;releasenote-gen&amp;lt;&amp;#x2F;a&amp;gt;&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;&amp;#x2F;blockquote&amp;gt;
+&amp;lt;p&amp;gt;A small bash script which extracts the changes from a CHANGELOG.md file following &amp;lt;a rel=&amp;quot;noopener&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;semver.org&amp;#x2F;&amp;quot;&amp;gt;semantic versioning&amp;lt;&amp;#x2F;a&amp;gt;.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;It can be used to generate release-notes for example: new github releases, release api calls, newsletters etc.&amp;lt;&amp;#x2F;p&amp;gt;
+</content>
+            </entry>
+            
+        
+            
+            <entry>
+                <title>powerdns for arm64</title>
+                <link href="https:&#x2F;&#x2F;vsfl.org&#x2F;projects&#x2F;2024&#x2F;powerdns-arm64&#x2F;"/>
+                <updated>2024-01-27T00:00:00+0000</updated>
+                <id>https:&#x2F;&#x2F;vsfl.org&#x2F;projects&#x2F;2024&#x2F;powerdns-arm64&#x2F;</id>
+                <content type="html">&amp;lt;blockquote&amp;gt;
+&amp;lt;p&amp;gt;link to repo: &amp;lt;a rel=&amp;quot;noopener&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;olofvndrhr&amp;#x2F;docker-pdns&amp;quot;&amp;gt;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;olofvndrhr&amp;#x2F;docker-pdns&amp;lt;&amp;#x2F;a&amp;gt;&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;&amp;#x2F;blockquote&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;em&amp;gt;The whole powerdns suite for arm64+amd64.&amp;lt;&amp;#x2F;em&amp;gt;&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;The official docker builds from &amp;lt;a rel=&amp;quot;noopener&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;PowerDNS&amp;#x2F;pdns&amp;quot;&amp;gt;powerdns&amp;lt;&amp;#x2F;a&amp;gt; only include the amd64 version, but as i was planning on using them on some arm64 machine I needed a compatible image.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;So the easy to maintain way was to:&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;ol&amp;gt;
+&amp;lt;li&amp;gt;create new build scripts&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;build the images for amd64 and arm64&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;publish them on the official container repository&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;&amp;#x2F;ol&amp;gt;
+&amp;lt;p&amp;gt;And as I was also using lightningstream for replication purposes, it was also included in the build.
+The final repository then contained builds with sample configs for:&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;ul&amp;gt;
+&amp;lt;li&amp;gt;&amp;lt;a rel=&amp;quot;noopener&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;doc.powerdns.com&amp;#x2F;authoritative&amp;#x2F;&amp;quot;&amp;gt;PowerDNS Authoritative Nameserver&amp;lt;&amp;#x2F;a&amp;gt;&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;&amp;lt;a rel=&amp;quot;noopener&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;doc.powerdns.com&amp;#x2F;recursor&amp;#x2F;&amp;quot;&amp;gt;PowerDNS Recursor&amp;lt;&amp;#x2F;a&amp;gt;&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;&amp;lt;a rel=&amp;quot;noopener&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;doc.powerdns.com&amp;#x2F;lightningstream&amp;#x2F;&amp;quot;&amp;gt;Powerdns Lightningstream&amp;lt;&amp;#x2F;a&amp;gt;&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;&amp;#x2F;ul&amp;gt;
+</content>
+            </entry>
+            
+        
+            
+            <entry>
+                <title>small projects</title>
+                <link href="https:&#x2F;&#x2F;vsfl.org&#x2F;projects&#x2F;2024&#x2F;small-projects&#x2F;"/>
+                <updated>2024-01-01T00:00:00+0000</updated>
+                <id>https:&#x2F;&#x2F;vsfl.org&#x2F;projects&#x2F;2024&#x2F;small-projects&#x2F;</id>
+                <content type="html">&amp;lt;h4 id=&amp;quot;dockerization-of-gohfs&amp;quot;&amp;gt;Dockerization of gohfs&amp;lt;&amp;#x2F;h4&amp;gt;
+&amp;lt;blockquote&amp;gt;
+&amp;lt;p&amp;gt;link to repo: &amp;lt;a rel=&amp;quot;noopener&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;olofvndrhr&amp;#x2F;gohfs&amp;quot;&amp;gt;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;olofvndrhr&amp;#x2F;gohfs&amp;lt;&amp;#x2F;a&amp;gt;&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;&amp;#x2F;blockquote&amp;gt;
+&amp;lt;p&amp;gt;To be deployed in my environment I needed this application in a containerized format.
+But the original developer did not have a container for it yet.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;So I created one with the &amp;lt;a rel=&amp;quot;noopener&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;just-containers&amp;#x2F;s6-overlay&amp;quot;&amp;gt;s6 supervisor&amp;lt;&amp;#x2F;a&amp;gt; for easy user mapping and failure detection.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;The pull request with the changes was accepted and can also be viewed at the &amp;lt;a rel=&amp;quot;noopener&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;finzzz&amp;#x2F;gohfs&amp;quot;&amp;gt;original repository&amp;lt;&amp;#x2F;a&amp;gt;.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;h4 id=&amp;quot;dockerization-of-flox&amp;quot;&amp;gt;Dockerization of flox&amp;lt;&amp;#x2F;h4&amp;gt;
+&amp;lt;blockquote&amp;gt;
+&amp;lt;p&amp;gt;link to repo: &amp;lt;a rel=&amp;quot;noopener&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;olofvndrhr&amp;#x2F;flox-dockerized&amp;quot;&amp;gt;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;olofvndrhr&amp;#x2F;flox-dockerized&amp;lt;&amp;#x2F;a&amp;gt;&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;&amp;#x2F;blockquote&amp;gt;
+&amp;lt;p&amp;gt;Flox is a personal watchlist, written in php.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Before I created my version, I used a docker container of flox from another user (I can’t remember which one).&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;But this version did not have a supervisor installed, so I created my own docker container for it with supervision.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;The baseimage for the flox container is the &amp;lt;a rel=&amp;quot;noopener&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;olofvndrhr&amp;#x2F;docker-baseimages&amp;quot;&amp;gt;debian-s6&amp;lt;&amp;#x2F;a&amp;gt; image from myself.
+It includes everything needed.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;I also built it for arm64 and amd64, so it can even run on raspberry pi’s or other arm processors.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;blockquote&amp;gt;
+&amp;lt;p&amp;gt;The original repository: &amp;lt;a rel=&amp;quot;noopener&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;olofvndrhr&amp;#x2F;docker-baseimages&amp;quot;&amp;gt;devfake&amp;#x2F;flox&amp;lt;&amp;#x2F;a&amp;gt;&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;&amp;#x2F;blockquote&amp;gt;
+&amp;lt;h4 id=&amp;quot;improvements-to-a-lets-encrypt-bash-script&amp;quot;&amp;gt;Improvements to a Lets Encrypt bash script&amp;lt;&amp;#x2F;h4&amp;gt;
+&amp;lt;blockquote&amp;gt;
+&amp;lt;p&amp;gt;link to repo: &amp;lt;a rel=&amp;quot;noopener&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;olofvndrhr&amp;#x2F;dehydrated-hook-cloudflare&amp;quot;&amp;gt;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;olofvndrhr&amp;#x2F;dehydrated-hook-cloudflare&amp;lt;&amp;#x2F;a&amp;gt;&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;&amp;#x2F;blockquote&amp;gt;
+&amp;lt;p&amp;gt;I changed the script to fit my needs.
+In the process I removed one package dependency and increased readability of the script.&amp;lt;&amp;#x2F;p&amp;gt;
+</content>
+            </entry>
+            
+        
+            
+            <entry>
+                <title>octodns-netbox-dns</title>
+                <link href="https:&#x2F;&#x2F;vsfl.org&#x2F;projects&#x2F;2023&#x2F;octodns-netbox-dns&#x2F;"/>
+                <updated>2023-11-09T00:00:00+0000</updated>
+                <id>https:&#x2F;&#x2F;vsfl.org&#x2F;projects&#x2F;2023&#x2F;octodns-netbox-dns&#x2F;</id>
+                <content type="html">&amp;lt;blockquote&amp;gt;
+&amp;lt;p&amp;gt;link to repo: &amp;lt;a rel=&amp;quot;noopener&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;olofvndrhr&amp;#x2F;octodns-netbox-dns&amp;quot;&amp;gt;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;olofvndrhr&amp;#x2F;octodns-netbox-dns&amp;lt;&amp;#x2F;a&amp;gt;&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;&amp;#x2F;blockquote&amp;gt;
+&amp;lt;p&amp;gt;An updated version of: &amp;lt;a rel=&amp;quot;noopener&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;jcollie&amp;#x2F;octodns-netbox-dns&amp;quot;&amp;gt;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;jcollie&amp;#x2F;octodns-netbox-dns&amp;lt;&amp;#x2F;a&amp;gt;&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;The new commits include some new features, bugfixes and a new build system for the package.
+It was also published to pypi.&amp;lt;&amp;#x2F;p&amp;gt;
+</content>
+            </entry>
+            
+        
+            
+            <entry>
+                <title>manga-dlp</title>
+                <link href="https:&#x2F;&#x2F;vsfl.org&#x2F;projects&#x2F;2022&#x2F;manga-dlp&#x2F;"/>
+                <updated>2022-07-25T00:00:00+0000</updated>
+                <id>https:&#x2F;&#x2F;vsfl.org&#x2F;projects&#x2F;2022&#x2F;manga-dlp&#x2F;</id>
+                <content type="html">&amp;lt;blockquote&amp;gt;
+&amp;lt;p&amp;gt;link to repo: &amp;lt;a rel=&amp;quot;noopener&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;olofvndrhr&amp;#x2F;manga-dlp&amp;quot;&amp;gt;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;olofvndrhr&amp;#x2F;manga-dlp&amp;lt;&amp;#x2F;a&amp;gt;&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;&amp;#x2F;blockquote&amp;gt;
+&amp;lt;p&amp;gt;I was in search of a script to download multiple mangas at the same time without any interactive elements which require your attention.
+The best I found was &amp;lt;a rel=&amp;quot;noopener&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;frozenpandaman&amp;#x2F;mangadex-dl&amp;quot;&amp;gt;mangadex-dl&amp;lt;&amp;#x2F;a&amp;gt;
+which didn’t include multiple mangas, or all chapters at the same time.
+So I took inspiration from mangadex-dl and wrote a script myself.
+It includes all my needs and is extendable for other sites too.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;I also created a docker container for it, built on my own base-image.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;blockquote&amp;gt;
+&amp;lt;p&amp;gt;More infos are available on the official docs: &amp;lt;a rel=&amp;quot;noopener&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;manga-dlp.ivn.sh&amp;#x2F;&amp;quot;&amp;gt;https:&amp;#x2F;&amp;#x2F;manga-dlp.ivn.sh&amp;#x2F;&amp;lt;&amp;#x2F;a&amp;gt;&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;&amp;#x2F;blockquote&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;strong&amp;gt;Feature summary:&amp;lt;&amp;#x2F;strong&amp;gt;&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;ul&amp;gt;
+&amp;lt;li&amp;gt;Multiple mangas via a file with links&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;Ability to download all chapters available&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;Save as zip, cbz, cbr, pdf or folder&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;Add metadata via the &amp;lt;a rel=&amp;quot;noopener&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;anansi-project.github.io&amp;#x2F;docs&amp;#x2F;comicinfo&amp;#x2F;schemas&amp;#x2F;v2.0&amp;quot;&amp;gt;comicinfo&amp;lt;&amp;#x2F;a&amp;gt; format&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;Multi-language support&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;Volume support&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;Custom event hooks&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;&amp;lt;a rel=&amp;quot;noopener&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;hub.docker.com&amp;#x2F;repository&amp;#x2F;docker&amp;#x2F;olofvndrhr&amp;#x2F;manga-dlp&amp;quot;&amp;gt;Docker image&amp;lt;&amp;#x2F;a&amp;gt;&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;&amp;lt;a rel=&amp;quot;noopener&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;pypi.org&amp;#x2F;project&amp;#x2F;manga-dlp&amp;#x2F;&amp;quot;&amp;gt;PyPi package&amp;lt;&amp;#x2F;a&amp;gt;&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;li&amp;gt;etc.&amp;lt;&amp;#x2F;li&amp;gt;
+&amp;lt;&amp;#x2F;ul&amp;gt;
+</content>
+            </entry>
+            
+        
+            
+            <entry>
+                <title>asdf-just</title>
+                <link href="https:&#x2F;&#x2F;vsfl.org&#x2F;projects&#x2F;2022&#x2F;asdf-just&#x2F;"/>
+                <updated>2022-07-23T00:00:00+0000</updated>
+                <id>https:&#x2F;&#x2F;vsfl.org&#x2F;projects&#x2F;2022&#x2F;asdf-just&#x2F;</id>
+                <content type="html">&amp;lt;blockquote&amp;gt;
+&amp;lt;p&amp;gt;link to repo: &amp;lt;a rel=&amp;quot;noopener&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;olofvndrhr&amp;#x2F;asdf-just&amp;quot;&amp;gt;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;olofvndrhr&amp;#x2F;asdf-just&amp;lt;&amp;#x2F;a&amp;gt;&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;&amp;#x2F;blockquote&amp;gt;
+&amp;lt;p&amp;gt;For my development and testing workflow I use the &amp;lt;a rel=&amp;quot;noopener&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;asdf-vm&amp;#x2F;asdf&amp;quot;&amp;gt;asdf version manager&amp;lt;&amp;#x2F;a&amp;gt;.
+It lets you install multiple versions of the same tool at once and change the used version on the fly.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;I also needed the tool &amp;lt;a rel=&amp;quot;noopener&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;casey&amp;#x2F;just&amp;quot;&amp;gt;just&amp;lt;&amp;#x2F;a&amp;gt;, which is like &amp;lt;a rel=&amp;quot;noopener&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;www.gnu.org&amp;#x2F;software&amp;#x2F;make&amp;#x2F;&amp;quot;&amp;gt;make&amp;lt;&amp;#x2F;a&amp;gt;,
+but more for automation and less for compiling.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;But as the current plugin for &amp;lt;code&amp;gt;just&amp;lt;&amp;#x2F;code&amp;gt; was not working, i wrote my own one and created a &amp;lt;a rel=&amp;quot;noopener&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;asdf-vm&amp;#x2F;asdf-plugins&amp;#x2F;pull&amp;#x2F;629&amp;quot;&amp;gt;pull-request&amp;lt;&amp;#x2F;a&amp;gt; in the official plugin repository.
+repository of asdf.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;The &amp;lt;a rel=&amp;quot;noopener&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;asdf-vm&amp;#x2F;asdf-plugins&amp;#x2F;pull&amp;#x2F;629&amp;quot;&amp;gt;PR&amp;lt;&amp;#x2F;a&amp;gt; was quickly merged, and now it is an official asdf plugin.&amp;lt;&amp;#x2F;p&amp;gt;
+</content>
+            </entry>
+            
+        
+            
+            <entry>
+                <title>ivn.sh</title>
+                <link href="https:&#x2F;&#x2F;vsfl.org&#x2F;projects&#x2F;2021&#x2F;ivn-sh&#x2F;"/>
+                <updated>2021-11-10T00:00:00+0000</updated>
+                <id>https:&#x2F;&#x2F;vsfl.org&#x2F;projects&#x2F;2021&#x2F;ivn-sh&#x2F;</id>
+                <content type="html">&amp;lt;blockquote&amp;gt;
+&amp;lt;p&amp;gt;link to repo: &amp;lt;a rel=&amp;quot;noopener&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;olofvndrhr&amp;#x2F;ivn.sh-conf&amp;quot;&amp;gt;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;olofvndrhr&amp;#x2F;ivn.sh-conf&amp;lt;&amp;#x2F;a&amp;gt;&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;&amp;#x2F;blockquote&amp;gt;
+&amp;lt;p&amp;gt;I was unsure on how to create and deploy my personal site, without too much hassle.
+So I landed on the pretty popular static site framework &amp;lt;a rel=&amp;quot;noopener&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;gohugo.io&amp;#x2F;&amp;quot;&amp;gt;hugo&amp;lt;&amp;#x2F;a&amp;gt;.
+It was relatively simple to set up and get working.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;For the deployment, I went with &amp;lt;a rel=&amp;quot;noopener&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;developers.cloudflare.com&amp;#x2F;pages&amp;#x2F;&amp;quot;&amp;gt;cloudflare pages&amp;lt;&amp;#x2F;a&amp;gt;
+for “hosting” and &amp;lt;a rel=&amp;quot;noopener&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;developers.cloudflare.com&amp;#x2F;analytics&amp;#x2F;web-analytics&amp;quot;&amp;gt;web analytics&amp;lt;&amp;#x2F;a&amp;gt;
+for the analytics part.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;I choose this option because I already manage all my domains via cloudflare, and so everything is on one platform for simpler management.&amp;lt;&amp;#x2F;p&amp;gt;
+</content>
+            </entry>
+            
+        
+            
+            <entry>
+                <title>docker baseimages</title>
+                <link href="https:&#x2F;&#x2F;vsfl.org&#x2F;projects&#x2F;2021&#x2F;docker-baseimages&#x2F;"/>
+                <updated>2021-11-04T00:00:00+0000</updated>
+                <id>https:&#x2F;&#x2F;vsfl.org&#x2F;projects&#x2F;2021&#x2F;docker-baseimages&#x2F;</id>
+                <content type="html">&amp;lt;blockquote&amp;gt;
+&amp;lt;p&amp;gt;the code for this project is hosted on my private &amp;lt;a rel=&amp;quot;noopener&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;forgejo.org&amp;#x2F;&amp;quot;&amp;gt;forgejo&amp;lt;&amp;#x2F;a&amp;gt; instance&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;&amp;#x2F;blockquote&amp;gt;
+&amp;lt;p&amp;gt;This is a relatively small project.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;As i deploy quite a few containers myself, some of them eventually have be customized.
+For this use case i created my own base-image, to have a common starting point.
+The image uses the &amp;lt;a rel=&amp;quot;noopener&amp;quot; target=&amp;quot;_blank&amp;quot; href=&amp;quot;https:&amp;#x2F;&amp;#x2F;github.com&amp;#x2F;just-containers&amp;#x2F;s6-overlay&amp;quot;&amp;gt;s6 supervisor&amp;lt;&amp;#x2F;a&amp;gt; and already has cron installed.
+It also has some commonly used tools bundled with it. So a perfect image for my use cases.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;The S6 supervisor is also really practical, because you can map the UID and GID of every service you run in your container.
+And the services are always supervised, so they will restart if they fail.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;p&amp;gt;Later i created some more variants of the image, one without &amp;lt;code&amp;gt;s6&amp;lt;&amp;#x2F;code&amp;gt;, one with &amp;lt;code&amp;gt;nginx&amp;lt;&amp;#x2F;code&amp;gt; preinstalled and one with &amp;lt;code&amp;gt;nginx+php&amp;lt;&amp;#x2F;code&amp;gt;.&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;blockquote&amp;gt;
+&amp;lt;p&amp;gt;&amp;lt;code&amp;gt;compose.yml&amp;lt;&amp;#x2F;code&amp;gt; snippet to map the UID and GID for the default user &amp;lt;code&amp;gt;abc&amp;lt;&amp;#x2F;code&amp;gt; in a docker-compose file&amp;lt;&amp;#x2F;p&amp;gt;
+&amp;lt;&amp;#x2F;blockquote&amp;gt;
+&amp;lt;pre data-lang=&amp;quot;yml&amp;quot; style=&amp;quot;background-color:#282828;color:#fdf4c1aa;&amp;quot; class=&amp;quot;language-yml &amp;quot;&amp;gt;&amp;lt;code class=&amp;quot;language-yml&amp;quot; data-lang=&amp;quot;yml&amp;quot;&amp;gt;&amp;lt;span style=&amp;quot;font-weight:bold;color:#8ec07c;&amp;quot;&amp;gt;environment&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;:
+&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;    - &amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color:#b8bb26;&amp;quot;&amp;gt;PUID=
+&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span&amp;gt;    - &amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;span style=&amp;quot;color:#b8bb26;&amp;quot;&amp;gt;PGID=
+&amp;lt;&amp;#x2F;span&amp;gt;&amp;lt;&amp;#x2F;code&amp;gt;&amp;lt;&amp;#x2F;pre&amp;gt;
+</content>
+            </entry>
+            
+        
+    
+</feed>

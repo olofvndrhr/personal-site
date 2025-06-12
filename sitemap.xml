@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    
+    
+        <url>
+            <loc>https://vsfl.org/about/</loc>
+            
+        </url>
+    
+    
+    
+        
+        
+            <url>
+                <loc>https://vsfl.org/projects/2024/releasenote-gen/</loc>
+                <lastmod>2024-02-04</lastmod>
+            </url>
+        
+            <url>
+                <loc>https://vsfl.org/projects/2024/powerdns-arm64/</loc>
+                <lastmod>2024-01-27</lastmod>
+            </url>
+        
+            <url>
+                <loc>https://vsfl.org/projects/2024/small-projects/</loc>
+                <lastmod>2024-01-01</lastmod>
+            </url>
+        
+            <url>
+                <loc>https://vsfl.org/projects/2023/octodns-netbox-dns/</loc>
+                <lastmod>2023-11-09</lastmod>
+            </url>
+        
+            <url>
+                <loc>https://vsfl.org/projects/2022/manga-dlp/</loc>
+                <lastmod>2022-07-25</lastmod>
+            </url>
+        
+            <url>
+                <loc>https://vsfl.org/projects/2022/asdf-just/</loc>
+                <lastmod>2022-07-23</lastmod>
+            </url>
+        
+            <url>
+                <loc>https://vsfl.org/projects/2021/ivn-sh/</loc>
+                <lastmod>2021-11-10</lastmod>
+            </url>
+        
+            <url>
+                <loc>https://vsfl.org/projects/2021/docker-baseimages/</loc>
+                <lastmod>2021-11-04</lastmod>
+            </url>
+        
+    
+</urlset>
