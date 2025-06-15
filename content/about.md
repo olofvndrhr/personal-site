@@ -1,20 +1,20 @@
 +++
-title = "Über mich"
-description = "Diverse infos über mich"
+title = "About"
+description = "Some infos about me"
 [extra.cover]
 image = ""
 [taxonomies]
 tags = []
 +++
 
-Ich heisse Ivan Schaller, und bin DevOps/Network Engineer bei Swisscom (Schweiz) AG.
+My name is Ivan Schaller, and im a DevOps/Network Engineer at Swisscom (Schweiz) AG.
 
-Meine Arbeit ist eine Kombination aus Betrieb im Netzwerk Bereich und Development in der Automation.
+My work is a combination of Operation in Networking and Development in Automation.
 
-In meiner Freizeit bastle ich gerne an IT Infrastruktur herum und Code auch mal was ;)
+In my spare time i like to work on my Homelab and Code sometimes ;)
 
 ---
 
-Kannst gerne mal bei meinen [Projekten](../projects) vorbei schauen.
+If you are interested in my work, check out my [Projects](../projects).
 
-Für Infos oder ähnliches kannst du mir gerne [eine Mail schreiben](mailto:ivan@schaller.sh).
+For more infos you can just [write me an email](mailto:ivan@schaller.sh).

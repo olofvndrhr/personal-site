@@ -1,8 +1,8 @@
 +++
 title = "Blog"
-description = "Zeugs"
+description = "Posts"
 sort_by = "date"
 paginate_by = 15
 +++
 
-Irgendwelche Blog-posts.
+Random blog posts.

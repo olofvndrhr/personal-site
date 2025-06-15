@@ -1,26 +1,25 @@
 base_url = "https://vsfl.org"
 
-compile_sass     = false
-minify_html      = true
-generate_feeds   = true
-generate_sitemap = true
-
-default_language = "de"
-author           = "Ivan Schaller"
+compile_sass       = false
+minify_html        = true
+generate_feeds     = true
+generate_sitemap   = true
+build_search_index = true
 
 theme = "linkita"
+
+default_language = "en"
+author           = "Ivan Schaller"
+
+title       = "vier steht für lifestyle"
+description = "Personal site of Ivan Schaller"
+taxonomies  = [{ name = "tags" }]
 
 [languages.de]
 title              = "vier steht für lifestyle"
 description        = "Persönliche website von Ivan Schaller"
-build_search_index = true
 taxonomies         = [{ name = "tags" }]
-
-[languages.en]
-title              = "vier steht für lifestyle"
-description        = "Personal site of Ivan Schaller"
 build_search_index = true
-taxonomies         = [{ name = "tags" }]
 
 [markdown]
 highlight_code              = true
@@ -33,9 +32,6 @@ highlight_theme             = "gruvbox-dark"
 paths      = "on"
 taxonomies = "on"
 anchors    = "on"
-
-[link_checker]
-internal_level = "warn"
 
 [extra]
 toc                       = true
@@ -71,9 +67,9 @@ page_info_on_paginator = [
 
 [extra.menus]
 multilingual_menu = [
-    { url = "$BASE_URL/about/", names = { de = "Über mich", en = "About me" } },
-    { url = "$BASE_URL/projects/", names = { de = "Projekte", en = "Projects" } },
-    { url = "$BASE_URL/blog/", names = { de = "Blog", en = "Blog" } },
+    { url = "$BASE_URL/about/", names = { en = "About me", de = "Über mich" } },
+    { url = "/projects/", names = { en = "Projects", de = "Projekte" } },
+    { url = "/blog/", names = { en = "Blog", de = "Blog" } },
 ]
 
 [extra.profiles.olofvndrhr]
@@ -86,7 +82,7 @@ social = [
     { name = "email", url = "mailto:ivan@schaller.sh" },
 ]
 
-[extra.profiles.olofvndrhr.languages.en]
+[extra.profiles.olofvndrhr.languages.de]
 bio = "Network Engineer"
 
 [extra.footer]

@@ -7,12 +7,14 @@ profile = "olofvndrhr"
 
 ## Overview
 
-My personal site where i share some projects or other stuff.
+Meine persönliche Seite wo ich Zeugs poste.
 
-## Some projects
+> alle Artikel sind in Englisch verfasst
+
+## Einige Projekte
 
 -   [manga-dlp](@/projects/2022/manga-dlp.md)
 -   [octodns-netbox-dns](@/projects/2023/octodns-netbox-dns.md)
 -   [PowerDNS custom build](@/projects/2024/powerdns-arm64.md)
 
-to see all projects go to [/projects/](/projects)
+alle Projekte sind hier gelisted: [/projects/](/projects)
