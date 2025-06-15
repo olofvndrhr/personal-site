@@ -19,7 +19,7 @@ It includes all my needs and is extendable for other sites too.
 
 I also created a docker container for it, built on my own base-image.
 
-> More infos are available on the official docs: <https://manga-dlp.ivn.sh/>
+> More infos are available on the official docs: <https://manga-dlp.vsfl.org/>
 
 **Feature summary:**
 

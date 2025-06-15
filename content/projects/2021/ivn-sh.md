@@ -9,6 +9,8 @@ image = ""
 tags = []
 +++
 
+<mark>not in use anymore</mark>
+
 > link to repo: <https://github.com/olofvndrhr/ivn.sh-conf>
 
 I was unsure on how to create and deploy my personal site, without too much hassle.
