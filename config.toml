@@ -2,17 +2,25 @@ base_url = "https://vsfl.org"
 
 compile_sass     = false
 minify_html      = true
-default_language = "en"
-
 generate_feeds   = true
 generate_sitemap = true
 
-theme = "anemone"
+default_language = "de"
+author           = "Ivan Schaller"
+
+theme = "linkita"
+
+[languages.de]
+title              = "vier steht für lifestyle"
+description        = "Persönliche website von Ivan Schaller"
+build_search_index = true
+taxonomies         = [{ name = "tags" }]
 
 [languages.en]
-build_search_index = true
-title              = "Personal site"
+title              = "vier steht für lifestyle"
 description        = "Personal site of Ivan Schaller"
+build_search_index = true
+taxonomies         = [{ name = "tags" }]
 
 [markdown]
 highlight_code              = true
@@ -30,11 +38,58 @@ anchors    = "on"
 internal_level = "warn"
 
 [extra]
-list_pages    = false
-enable_search = true
+toc                       = true
+page_summary_on_paginator = true
+math                      = true
+mermaid                   = true
 
-header_nav = [
-    { url = "/", name_en = "/home/" },
-    { url = "/about", name_en = "/about/" },
-    { url = "/projects", name_en = "/projects/" },
+header_menu_name = "multilingual_menu"
+header_buttons = [
+    "site_title",
+    "theme_button",
+    "translations_button",
+    "search_button",
 ]
+
+# Valid "when" values:
+#  "date", "date_updated", "reading_time", "word_count", "authors", "tags", "".
+# The "prepend" and "append" are used when the value of "when" is defined for the page.
+# e.g. [{when="", prepend="Page Info: "},{when="date",prepend="Published on "},{when="authors",prepend="By "}]
+page_info = [
+    { when = "date" },
+    { when = "date_updated", prepend = "(updated: ", append = ")" },
+    { when = "reading_time" },
+    { when = "word_count" },
+    { when = "authors" },
+]
+page_info_on_paginator = [
+    { when = "date" },
+    { when = "date_updated", prepend = "(updated: ", append = ")" },
+    { when = "reading_time" },
+    { when = "word_count" },
+]
+
+[extra.menus]
+multilingual_menu = [
+    { url = "$BASE_URL/about/", names = { de = "Über mich", en = "About me" } },
+    { url = "$BASE_URL/projects/", names = { de = "Projekte", en = "Projects" } },
+    { url = "$BASE_URL/blog/", names = { de = "Blog", en = "Blog" } },
+]
+
+[extra.profiles.olofvndrhr]
+name = "Ivan Schaller"
+bio  = "Network Engineer"
+
+avatar_url = "avatar.png"
+social = [
+    { name = "github", url = "https://github.com/olofvndrhr" },
+    { name = "email", url = "mailto:ivan@schaller.sh" },
+]
+
+[extra.profiles.olofvndrhr.languages.en]
+bio = "Network Engineer"
+
+[extra.footer]
+since       = 2025
+license_url = "https://creativecommons.org/licenses/by-sa/4.0/deed"
+copyright   = "&copy; $YEAR Ivan Schaller &vert; [CC BY-SA 4.0]($LICENSE_URL)"

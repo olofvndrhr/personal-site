@@ -2,9 +2,11 @@
 title = "ivn.sh"
 description = "ivn.sh - personal site"
 date = "2021-11-10"
-[extra]
-author = "Ivan Schaller"
-display_author = true
+updated = "2021-11-10"
+[extra.cover]
+image = ""
+[taxonomies]
+tags = []
 +++
 
 > link to repo: <https://github.com/olofvndrhr/ivn.sh-conf>

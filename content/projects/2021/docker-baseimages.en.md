@@ -2,9 +2,11 @@
 title = "docker baseimages"
 description = "creating baseimages for deployment"
 date = "2021-11-04"
-[extra]
-author = "Ivan Schaller"
-display_author = true
+updated = "2021-11-04"
+[extra.cover]
+image = ""
+[taxonomies]
+tags = []
 +++
 
 > the code for this project is hosted on my private [forgejo](https://forgejo.org/) instance

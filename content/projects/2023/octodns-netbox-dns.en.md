@@ -2,9 +2,11 @@
 title = "octodns-netbox-dns"
 description = "netbox-plugin-dns source for octodns"
 date = "2023-11-09"
-[extra]
-author = "Ivan Schaller"
-display_author = true
+updated = "2023-11-09"
+[extra.cover]
+image = ""
+[taxonomies]
+tags = []
 +++
 
 > link to repo: <https://github.com/olofvndrhr/octodns-netbox-dns>

@@ -2,9 +2,11 @@
 title = "manga-dlp"
 description = "Manga download script in python3"
 date = "2022-07-25"
-[extra]
-author = "Ivan Schaller"
-display_author = true
+updated = "2022-07-25"
+[extra.cover]
+image = ""
+[taxonomies]
+tags = []
 +++
 
 > link to repo: <https://github.com/olofvndrhr/manga-dlp>

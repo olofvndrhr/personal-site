@@ -2,9 +2,11 @@
 title = "powerdns for arm64"
 description = "powerdns containers for arm64"
 date = "2024-01-27"
-[extra]
-author = "Ivan Schaller"
-display_author = true
+updated = "2024-01-27"
+[extra.cover]
+image = ""
+[taxonomies]
+tags = []
 +++
 
 > link to repo: <https://github.com/olofvndrhr/docker-pdns>

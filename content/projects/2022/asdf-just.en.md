@@ -2,9 +2,11 @@
 title = "asdf-just"
 description = "asdf plugin for just"
 date = "2022-07-23"
-[extra]
-author = "Ivan Schaller"
-display_author = true
+updated = "2022-07-23"
+[extra.cover]
+image = ""
+[taxonomies]
+tags = []
 +++
 
 > link to repo: <https://github.com/olofvndrhr/asdf-just>

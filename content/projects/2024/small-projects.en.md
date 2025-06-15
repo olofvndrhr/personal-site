@@ -2,9 +2,11 @@
 title = "small projects"
 description = "list of a few small projects"
 date = "2024-01-01"
-[extra]
-author = "Ivan Schaller"
-display_author = true
+updated = "2024-01-01"
+[extra.cover]
+image = ""
+[taxonomies]
+tags = []
 +++
 
 #### Dockerization of gohfs

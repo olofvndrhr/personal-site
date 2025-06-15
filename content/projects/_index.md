@@ -1,8 +1,10 @@
 +++
-title = "Projects"
-description = "My projects"
+title = "Projekte"
+description = "Meine Projekte"
 sort_by = "date"
-paginate_by = 15
+template = "archive.html"
+[extra]
+date_format = "%d.%m.%Y"
 +++
 
-Not all my projects are listed here. Only public ones and the ones i found time to write something about.
+Nicht alle meine Projekte sind hier gelistet, nur die öffentlichen und für die welche ich Zeit gefunden habe etwas darüber zu schreiben.

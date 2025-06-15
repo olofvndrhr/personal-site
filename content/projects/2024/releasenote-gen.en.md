@@ -2,9 +2,11 @@
 title = "releasenote-gen"
 description = "release note generator action"
 date = "2024-02-04"
-[extra]
-author = "Ivan Schaller"
-display_author = true
+updated = "2024-02-04"
+[extra.cover]
+image = ""
+[taxonomies]
+tags = []
 +++
 
 > link to repo: <https://github.com/olofvndrhr/releasenote-gen>
