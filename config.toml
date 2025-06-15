@@ -38,6 +38,7 @@ toc                       = true
 page_summary_on_paginator = true
 math                      = true
 mermaid                   = true
+disable_default_favicon   = true
 
 header_menu_name = "multilingual_menu"
 header_buttons = [
@@ -76,7 +77,7 @@ multilingual_menu = [
 name = "Ivan Schaller"
 bio  = "Network Engineer"
 
-avatar_url = "avatar.png"
+avatar_url = "media/avatar.png"
 social = [
     { name = "github", url = "https://github.com/olofvndrhr" },
     { name = "email", url = "mailto:ivan@schaller.sh" },
