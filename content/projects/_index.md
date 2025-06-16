@@ -2,9 +2,9 @@
 title = "Projects"
 description = "My projects"
 sort_by = "date"
-template = "archive.html"
-[extra]
-date_format = "%d.%m.%Y"
+paginate_by = 15
 +++
 
 Not all my projects are listed here. Only public ones and the ones i found time to write something about.
+
+{{ projects(path="data.toml", format="toml") }}

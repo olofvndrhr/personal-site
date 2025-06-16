@@ -1,0 +1,95 @@
+[[project]]
+name = "octodns provider for the Netbox DNS plugin"
+desc = "Provider to sync DNS records from and to the [Netbox DNS plugin](https://github.com/peteeckel/netbox-plugin-dns) via [octodns](https://github.com/octodns/octodns)"
+tags = []
+links = [
+    { name = "source", url = "https://github.com/olofvndrhr/octodns-netbox-dns" },
+]
+
+[[project]]
+name = "Manga downloader for Mangadex.org"
+desc = "Features: download as ZIP/CBR/CBZ/PDF, Metadata support, Multi-Language support, custom hooks"
+tags = []
+links = [
+    { name = "source", url = "https://github.com/olofvndrhr/manga-dlp" },
+]
+
+[[project]]
+name = "GitHub action to extract release notes"
+desc = "Pure Bash script to extract the release notes for a specific version from a CHANGELOG"
+tags = []
+links = [
+    { name = "source", url = "https://github.com/olofvndrhr/releasenote-gen" },
+]
+
+[[project]]
+name = "GitHub action to notify Healthchecks"
+desc = "Notifies [Healthchecks](https://github.com/healthchecks/healthchecks) on the status of the action"
+tags = []
+links = [
+    { name = "source", url = "https://github.com/olofvndrhr/healthchecks-action" },
+]
+
+[[project]]
+name = "asdf plugin for Python"
+desc = "[asdf](https://github.com/asdf-vm/asdf) version manager plugin for Python via [python-build-standalone](https://github.com/astral-sh/python-build-standalone)"
+tags = []
+links = [
+    { name = "source", url = "https://github.com/olofvndrhr/asdf-python" },
+]
+
+[[project]]
+name = "asdf plugin for just"
+desc = "[asdf](https://github.com/asdf-vm/asdf) version manager plugin for [just](https://github.com/casey/just)"
+tags = []
+links = [
+    { name = "source", url = "https://github.com/olofvndrhr/asdf-just" },
+]
+
+[[project]]
+name = "asdf plugin for resticprofile"
+desc = "[asdf](https://github.com/asdf-vm/asdf) version manager plugin for [resticprofile](https://github.com/creativeprojects/resticprofile)"
+tags = []
+links = [
+    { name = "source", url = "https://github.com/olofvndrhr/asdf-resticprofile" },
+]
+
+[[project]]
+name = "Personal Python library"
+desc = "Python3 library with some useful functions"
+tags = []
+links = [
+    { name = "source", url = "https://github.com/olofvndrhr/fftools" },
+]
+
+[[project]]
+name = "PowerDNS for arm64"
+desc = "Multiarch containers for the PowerDNS Authoritative Server, Recursor, Lightning Stream and dnsdist"
+tags = []
+links = [
+    { name = "source", url = "https://github.com/olofvndrhr/docker-pdns" },
+]
+
+[[project]]
+name = "This site"
+desc = "My personal site built with [zola](https://github.com/getzola/zola)"
+tags = []
+links = [
+    { name = "source", url = "https://github.com/olofvndrhr/personal-site" },
+]
+
+[[project]]
+name = "Dehydrated hook for Cloudflare"
+desc = "Bash hook to create _acme records for the DNS-01 challenge with [dehydrated](https://github.com/dehydrated-io/dehydrated)"
+tags = []
+links = [
+    { name = "source", url = "https://github.com/olofvndrhr/dehydrated-hook-cloudflare" },
+]
+
+[[project]]
+name = "ivn.sh config"
+desc = "old personal site built with Hugo"
+tags = []
+links = [
+    { name = "source", url = "https://github.com/olofvndrhr/ivn.sh-conf" },
+]
