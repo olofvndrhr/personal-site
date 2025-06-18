@@ -17,4 +17,6 @@ In my spare time i like to work on my Homelab and Code sometimes ;)
 
 If you are interested in my work, check out my [Projects](../projects).
 
-For more infos you can just [write me an email](mailto:ivan@schaller.sh).
+For more infos you can just write me an email.
+
+> mail address on my [GitHub](https://github.com/olofvndrhr) page.

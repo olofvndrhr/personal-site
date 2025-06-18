@@ -17,4 +17,6 @@ In meiner Freizeit bastle ich gerne an IT Infrastruktur herum und Code auch mal 
 
 Kannst gerne mal bei meinen [Projekten](../../projects) vorbei schauen.
 
-Für Infos oder ähnliches kannst du mir gerne [eine Mail schreiben](mailto:ivan@schaller.sh).
+Für Infos oder ähnliches kannst du mir gerne eine Mail schreiben.
+
+> Mail Adresse auf meiner [GitHub](https://github.com/olofvndrhr) Seite.

@@ -42,10 +42,10 @@ disable_default_favicon   = true
 
 header_menu_name = "multilingual_menu"
 header_buttons = [
+    "search_button",
     "site_title",
     "theme_button",
     "translations_button",
-    "search_button",
 ]
 
 # Valid "when" values:
@@ -53,11 +53,11 @@ header_buttons = [
 # The "prepend" and "append" are used when the value of "when" is defined for the page.
 # e.g. [{when="", prepend="Page Info: "},{when="date",prepend="Published on "},{when="authors",prepend="By "}]
 page_info = [
+    { when = "authors" },
     { when = "date" },
     { when = "date_updated", prepend = "(updated: ", append = ")" },
     { when = "reading_time" },
     { when = "word_count" },
-    { when = "authors" },
 ]
 page_info_on_paginator = [
     { when = "date" },
@@ -69,8 +69,8 @@ page_info_on_paginator = [
 [extra.menus]
 multilingual_menu = [
     { url = "$BASE_URL/about/", names = { en = "About me", de = "Über mich" } },
-    { url = "/projects/", names = { en = "Projects", de = "Projekte" } },
     { url = "/blog/", names = { en = "Blog", de = "Blog" } },
+    { url = "/projects/", names = { en = "Projects", de = "Projekte" } },
 ]
 
 [extra.profiles.olofvndrhr]
@@ -80,7 +80,6 @@ bio  = "Network Engineer"
 avatar_url = "media/avatar.png"
 social = [
     { name = "github", url = "https://github.com/olofvndrhr" },
-    { name = "email", url = "mailto:ivan@schaller.sh" },
 ]
 
 [extra.profiles.olofvndrhr.languages.de]
