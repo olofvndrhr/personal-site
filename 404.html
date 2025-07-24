@@ -1,0 +1,30 @@
+<!doctype html><html class="not-ready lg:text-base overflow-y-scroll scroll-pt-14" lang=en><head prefix="og: https://ogp.me/ns#"><meta charset=utf-8><meta content="IE=edge" http-equiv=X-UA-Compatible><meta content="width=device-width,initial-scale=1,shrink-to-fit=no" name=viewport><meta content=Zola name=generator><meta content=noindex name=robots><title>404: Page not found | vier steht für lifestyle</title><meta content="vier steht für lifestyle" property=og:site_name><meta content="404: Page not found" property=og:title><meta content=website property=og:type><link title="vier steht für lifestyle | Atom" href=https://vsfl.org/atom.xml rel=alternate type=application/atom+xml><link href=https://creativecommons.org/licenses/by-sa/4.0/deed rel=license><link href=/icons/favicon.svg rel=icon sizes=32x32 type=image/x-icon><link href="https://vsfl.org/main.min.css?h=fc65ba308cf36d3ba82c" rel=stylesheet><style>:root{--bg:#f4f4f5;--header:#e4e4e7;color-scheme:light}:root.dark{--bg:#18181b;--header:#27272a;color-scheme:dark}</style><meta content=#e4e4e7 data-dark=#27272a data-light=#e4e4e7 name=theme-color><script src="https://vsfl.org/js/linkita.min.js?h=1dd3ed42fc674277bc34"></script><script src="https://vsfl.org/js/linkita-search.min.js?h=698547b4b081d012c661"></script><link href="https://vsfl.org/katex/katex.min.css?h=19095127357ed6d29fe0" rel=stylesheet><script src="https://vsfl.org/katex/katex.min.js?h=e8d885505949f3a5f4ab" defer></script><script src="https://vsfl.org/katex/contrib/auto-render.min.js?h=bb53eb953394531aae36" defer></script><script>document.addEventListener("DOMContentLoaded", window.linkita.initKatex);</script><body class="text-black duration-100 ease-out bg-[var(--bg)] dark:text-white"><header class="bg-[var(--header)] fixed top-0 z-40 mx-auto min-h-[3.25rem] w-full header-icons"><div class="mx-auto w-full max-w-4xl p-2.5 lg:flex lg:justify-between"><div class="flex justify-between"><div class="flex items-center min-h-8"><a class="text-2xl font-semibold" title="Go to home page" accesskey=! href=https://vsfl.org/>vier steht für lifestyle</a><button class="btn-dark ml-4 h-6 w-6 shrink-0 cursor-pointer text-[0] bg-center bg-no-repeat bg-cover dark:invert [background-image:var(--icon-theme-dark)] dark:[background-image:var(--icon-theme-light)]" title="Switch color scheme" accesskey=$ onclick=window.linkita.toggleDarkMode(); ondblclick=window.linkita.resetDarkMode(); type=button></button><button class="btn-search ml-4 h-6 w-6 shrink-0 cursor-pointer text-[0] bg-center bg-no-repeat bg-cover [background-image:var(--icon-search)] dark:invert" accesskey=/ onclick=window.linkita.toggleSearch(); title=Search type=button></button><script>window.linkita.initSearchButton({ scripts: ["https://vsfl.org/elasticlunr.min.js", "https://vsfl.org/search_index.en.js"] });</script></div><div class="btn-menu relative z-50 flex h-8 w-8 shrink-0 cursor-pointer flex-col items-center justify-center gap-2.5 lg:hidden" onkeydown="(event.keyCode == 13 || event.keyCode == 32) ? event.preventDefault() || window.linkita.toggleHeaderMenu() : true;" accesskey=+ onclick=window.linkita.toggleHeaderMenu(); role=button tabindex=0 title=Menu></div></div><nav class="flex w-full items-center lg:w-auto"><menu class="nav-wrapper flex w-full flex-col py-2 lg:w-auto lg:flex-row lg:self-center lg:py-0"><li><a class="primary-link block py-2 text-center text-lg font-medium lg:px-3 lg:py-0" href=https://vsfl.org/about/>About me</a><li><a class="primary-link block py-2 text-center text-lg font-medium lg:px-3 lg:py-0" href=/projects/>Projects</a><li><a class="primary-link block py-2 text-center text-lg font-medium lg:px-3 lg:py-0" href=/blog/>Blog</a></menu></nav></div></header><main class="prose prose-neutral relative mx-auto min-h-[calc(100%-4rem)] max-w-3xl break-words px-4 pb-12 pt-28 lg:pt-32 dark:prose-invert prose-pre:rounded-lg prose-img:rounded-lg"><div class=hidden id=linkita-search-wrapper><ul id=linkita-search-results></ul></div><h1 class="absolute inset-x-8 bottom-20 top-0 flex items-center justify-center text-6xl">404: Page not found</h1></main><footer class="mx-auto flex lg:mt-5 max-w-3xl flex-wrap items-center px-4 py-3 text-sm opacity-60"><div class="mr-auto basis-full lg:basis-1/2">© <time datetime=2025>2025</time> Ivan Schaller | <a href=https://creativecommons.org/licenses/by-sa/4.0/deed rel=noopener target=_blank>CC BY-SA 4.0</a></div><div class="flex basis-full lg:basis-1/2 lg:justify-end"><span class="mr-6 lg:ml-6"> <a class=link href=https://www.getzola.org/ target=_blank>Powered by Zola</a> </span><a class=link href=https://www.getzola.org/themes/linkita/ target=_blank>✎ Linkita</a></div></footer><script type=module>import mermaid from "https://cdn.jsdelivr.net/npm/mermaid@11/dist/mermaid.esm.min.mjs";
+  function initMermaid(isDark) {
+    mermaid.initialize({
+      theme: isDark ? "dark" : "default",
+      themeVariables: {
+        darkMode: isDark
+      },
+      startOnLoad: false,
+    });
+    mermaid.run();
+  };
+
+  // Add data-mermaid-code attribute on all mermaid block.
+  document.querySelectorAll(".mermaid").forEach((element) => {
+    element.setAttribute("data-mermaid-code", element.innerHTML);
+  });
+
+  initMermaid(document.documentElement.classList.contains("dark"));
+
+  // Re-render mermaid when theme changed.
+  document.body.addEventListener("set-theme", (e) => {
+    document.querySelectorAll(".mermaid").forEach((element) => {
+      const mermaidCode = element.getAttribute("data-mermaid-code");
+      if (mermaidCode != null) {
+        element.removeAttribute("data-processed");
+        element.innerHTML = mermaidCode;
+      }
+    });
+    initMermaid(e.detail === "dark");
+  });</script>
